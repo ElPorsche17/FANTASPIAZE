@@ -54,13 +54,16 @@ body {
   padding: 0.4rem 0.8rem;
   border-radius: 6px;
   transition: background-color 0.3s ease;
+  text-shadow: 0 0 2px black; /* bordo nero leggero */
 }
 
+/* Hover generale */
 .navbar a:hover {
-  background-color: #66b3ff; /* giallo ocra */
+  background-color: #66b3ff; /* azzurro chiaro */
   color: white;
 }
 
+/* Tasto evidenziato */
 .navbar a.highlight {
   background-color: #d9991e; /* giallo ocra */
   color: white;
@@ -69,8 +72,9 @@ body {
   border-radius: 5px;
 }
 
+/* Pagina attiva */
 .navbar a.active {
-  background-color: #66b3ff; /* giallo ocra */
+  background-color: #66b3ff; /* azzurro chiaro */
   color: white !important;
   font-weight: bold;
   position: relative;
