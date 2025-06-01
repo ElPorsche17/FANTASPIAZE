@@ -25,13 +25,13 @@ body {
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   object-fit: contain;
 }
 
 .site-title {
-  font-size: 3rem;
+  font-size: 4rem;
   color: #001eff; /* blu elettrico */
   margin: 0;
   font-weight: normal;
