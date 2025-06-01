@@ -7,6 +7,34 @@ body {
   padding: 0;
 }
 
+/* Intestazione con titolo e logo */
+.header {
+  background-color: #ffffff;
+  padding: 1.5rem 1rem 0 1rem;
+  border-bottom: 2px solid #001eff;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+.site-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #001eff;
+  text-align: center;
+  margin: 0;
+}
+
 /* Navbar */
 .navbar {
   background-color: #001eff; /* blu elettrico */
@@ -31,6 +59,12 @@ body {
   color: #000000;
 }
 
+.navbar a.active {
+  background-color: #668eff; /* blu più chiaro */
+  border-radius: 5px;
+  padding: 0.3rem 0.6rem;
+}
+
 /* Contenitore principale */
 .container {
   padding: 2rem;
@@ -45,7 +79,13 @@ body {
 }
 
 .welcome h1 {
+  font-size: 3rem; /* ingrandito */
   color: #001eff;
+}
+
+.welcome p {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
 }
 
 /* Sezione informazioni principali */
@@ -57,6 +97,7 @@ body {
 }
 
 .info h2 {
+  font-size: 2rem; /* ingrandito */
   color: #001eff;
   margin-bottom: 1rem;
 }
@@ -67,8 +108,9 @@ body {
 }
 
 .info li {
-  margin-bottom: 0.5rem;
-  line-height: 1.4;
+  font-size: 1.15rem; /* un po' più grande */
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
 }
 
 /* Bottone Iscriviti */
@@ -84,7 +126,7 @@ body {
   padding: 1rem 2rem;
   border-radius: 8px;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.4rem; /* ingrandito */
   font-weight: bold;
   transition: background-color 0.3s ease;
 }
