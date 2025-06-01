@@ -57,12 +57,13 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #3333ff;
+  background-color: #d9991e; /* giallo ocra */
+  color: white;
 }
 
 .navbar a.active {
-  background-color: #6699ff; /* blu chiaro */
-  color: #ffffcc;
+  background-color: #d9991e; /* giallo ocra */
+  color: white !important;
   font-weight: bold;
   position: relative;
   top: 1px; /* evita scentramento */
@@ -119,20 +120,20 @@ main.container {
 }
 
 .cta-button {
-  background-color: #001eff;
+  background-color: #d9991e; /* giallo ocra */
   color: white;
   text-decoration: none;
   padding: 1rem 3rem;
   font-weight: bold;
   border-radius: 25px;
   font-size: 1.5rem;
-  box-shadow: 0 0 15px #001effaa;
+  box-shadow: 0 0 15px #d9991eaa;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
   display: inline-block;
   user-select: none;
 }
 
 .cta-button:hover {
-  background-color: #3344ff;
-  box-shadow: 0 0 20px #3344ffcc;
+  background-color: #f1b84a; /* versione più chiara di giallo ocra */
+  box-shadow: 0 0 20px #f1b84acc;
 }
