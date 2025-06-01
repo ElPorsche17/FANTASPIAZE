@@ -30,16 +30,16 @@ body {
 }
 
 .logo {
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   object-fit: contain;
 }
 
 .site-title {
-  font-size: 6rem;
+  font-size: 5.5rem;
   color: #001eff;
   margin: 0;
-  font-weight: normal;
+  font-weight: bold;
   user-select: none;
 }
 
