@@ -7,22 +7,20 @@ body {
   color: #000;
 }
 
-/* Header: logo + titolo */
+/* Header: logo + titolo + sottotitolo */
 .header {
   background-color: #ffffff;
   padding: 1rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
   user-select: none;
+  text-align: center; /* CENTRA tutto dentro header */
 }
 
 .logo-title {
-  text-decoration: none;
-  display: flex;
+  display: inline-flex; /* logo + titolo sulla stessa riga */
   align-items: center;
   gap: 1rem;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .logo-title:hover h1 {
@@ -48,9 +46,10 @@ body {
   color: #001eff;
   font-weight: 400;
   margin-top: 0.5rem;
-  text-align: center;
+  display: inline-block;
   position: relative;
   left: 10px; /* leggera spinta verso destra */
+  user-select: none;
 }
 
 /* Navbar */
@@ -125,6 +124,14 @@ main.container {
   font-weight: bold;
 }
 
+.content-block h1 {
+  font-size: 3rem; /* modifica la dimensione di h1 */
+}
+
+.content-block h2 {
+  font-size: 2.2rem; /* modifica la dimensione di h2 */
+}
+
 /* Liste */
 .content-block ul {
   list-style: none;
@@ -132,14 +139,6 @@ main.container {
   margin: 0 auto;
   max-width: 700px;
   text-align: center;
-}
-
-.content-block h1 {
-  font-size: 3rem; /* modifica la dimensione di h1 */
-}
-
-.content-block h2 {
-  font-size: 2.2rem; /* modifica la dimensione di h2 */
 }
 
 .content-block ul li {
