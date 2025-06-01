@@ -1,10 +1,10 @@
 /* Font e base */
 body {
   font-family: 'Oswald', sans-serif;
-  background-color: #ffffff; /* sfondo bianco */
+  background-color: #ffffff;
   margin: 0;
   padding: 0;
-  color: #000; /* testo nero */
+  color: #000;
 }
 
 /* Header: logo + titolo */
@@ -19,9 +19,14 @@ body {
 }
 
 .logo-title {
+  text-decoration: none;
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.logo-title:hover h1 {
+  text-decoration: underline;
 }
 
 .logo {
@@ -31,8 +36,8 @@ body {
 }
 
 .site-title {
-  font-size: 5rem;
-  color: #001eff; /* blu elettrico */
+  font-size: 6rem;
+  color: #001eff;
   margin: 0;
   font-weight: normal;
   user-select: none;
@@ -40,7 +45,7 @@ body {
 
 /* Navbar */
 .navbar {
-  background-color: #0000cc; /* blu scuro */
+  background-color: #0000cc;
   display: flex;
   justify-content: center;
   gap: 2.5rem;
@@ -53,32 +58,29 @@ body {
   font-size: 1.3rem;
   padding: 0.4rem 0.8rem;
   border-radius: 6px;
-  transition: background-color 0.3s ease;
-  text-shadow: 0 0 2px black; /* bordo nero leggero */
+  transition: background-color 0.3s ease, text-shadow 0.3s ease;
+  text-shadow: 0 0 2px black;
 }
 
-/* Hover generale */
 .navbar a:hover {
-  background-color: #66b3ff; /* azzurro chiaro */
+  background-color: #66b3ff;
   color: white;
 }
 
-/* Tasto evidenziato */
 .navbar a.highlight {
-  background-color: #d9991e; /* giallo ocra */
+  background-color: #d9991e;
   color: white;
   font-weight: bold;
   padding: 0.5rem 1rem;
   border-radius: 5px;
 }
 
-/* Pagina attiva */
 .navbar a.active {
-  background-color: #66b3ff; /* azzurro chiaro */
+  background-color: #66b3ff;
   color: white !important;
   font-weight: bold;
   position: relative;
-  top: 1px; /* evita scentramento */
+  top: 1px;
 }
 
 /* Container principale */
@@ -89,22 +91,22 @@ main.container {
   text-align: center;
 }
 
-/* Blocchi contenuto (info, date, ecc) */
+/* Blocchi contenuto */
 .content-block {
-  background-color: #f5f5f5; /* grigio chiarissimo */
+  background-color: #f5f5f5;
   border-radius: 12px;
   padding: 2rem 3rem;
   margin-bottom: 2.5rem;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
   color: #000;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   line-height: 2rem;
   max-width: 720px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Titoli all'interno dei blocchi */
+/* Titoli all’interno dei blocchi */
 .content-block h1,
 .content-block h2 {
   margin-top: 0;
@@ -132,7 +134,7 @@ main.container {
 }
 
 .cta-button {
-  background-color: #d9991e; /* giallo ocra */
+  background-color: #d9991e;
   color: white;
   text-decoration: none;
   padding: 1rem 3rem;
@@ -146,6 +148,6 @@ main.container {
 }
 
 .cta-button:hover {
-  background-color: #f1b84a; /* versione più chiara di giallo ocra */
+  background-color: #f1b84a;
   box-shadow: 0 0 20px #f1b84acc;
 }
