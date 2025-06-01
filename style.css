@@ -46,10 +46,11 @@ body {
 .site-subtitle {
   font-size: 2.5rem;
   color: #001eff;
-  font-weight: bold;
-  margin-top: 0.2rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  text-align: center;
   position: relative;
-  left: 10px; /* Spostamento leggero a destra */
+  left: 10px; /* leggera spinta verso destra */
 }
 
 /* Navbar */
