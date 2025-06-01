@@ -7,24 +7,21 @@ body {
   color: #000;
 }
 
-/* Header: logo + titolo + sottotitolo */
 .header {
   background-color: #ffffff;
   padding: 1rem 0;
+  display: flex;
+  flex-direction: column; /* header verticale */
+  align-items: center;
   user-select: none;
-  text-align: center; /* CENTRA tutto dentro header */
 }
 
 .logo-title {
-  display: inline-flex; /* logo + titolo sulla stessa riga */
-  align-items: center;
+  display: flex;
+  align-items: center; /* allinea logo e titolo verticalmente */
   gap: 1rem;
-  justify-content: center;
   text-decoration: none;
-}
-
-.logo-title:hover h1 {
-  text-decoration: underline;
+  user-select: none;
 }
 
 .logo {
@@ -41,16 +38,16 @@ body {
   user-select: none;
 }
 
+/* sottotitolo centrato sotto il titolo, non nello stesso flex */
 .site-subtitle {
   font-size: 2.5rem;
   color: #001eff;
   font-weight: 400;
-  margin-top: 0.5rem;
-  display: inline-block;
-  position: relative;
-  left: 10px; /* leggera spinta verso destra */
+  margin-top: 0.3rem;
+  text-align: center;
   user-select: none;
 }
+
 
 /* Navbar */
 .navbar {
