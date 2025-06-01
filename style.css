@@ -61,8 +61,16 @@ body {
   color: white;
 }
 
-.navbar a.active {
+.navbar a.highlight {
   background-color: #d9991e; /* giallo ocra */
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.navbar a.active {
+  background-color: #66b3ff; /* giallo ocra */
   color: white !important;
   font-weight: bold;
   position: relative;
