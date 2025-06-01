@@ -28,7 +28,7 @@ body {
 }
 
 .site-title {
-  font-size: 3rem; /* aumentato da 2.5rem */
+  font-size: 3rem; /* titolo più grande */
   font-weight: bold;
   color: #001eff;
   margin: 0;
@@ -86,12 +86,12 @@ body {
 }
 
 .welcome h1 {
-  font-size: 2.7rem; /* ridotto da 3rem */
+  font-size: 2.7rem; /* leggermente più piccolo */
   color: #001eff;
 }
 
 .welcome p {
-  font-size: 1.1rem; /* ridotto da 1.25rem */
+  font-size: 1.1rem; /* leggermente più piccolo */
   margin-top: 0.5rem;
 }
 
@@ -104,7 +104,7 @@ body {
 }
 
 .info h2 {
-  font-size: 1.8rem; /* ridotto da 2rem */
+  font-size: 1.8rem; /* leggermente più piccolo */
   color: #001eff;
   margin-bottom: 1rem;
 }
@@ -115,7 +115,7 @@ body {
 }
 
 .info li {
-  font-size: 1rem; /* ridotto da 1.15rem */
+  font-size: 1rem; /* leggermente più piccolo */
   margin-bottom: 0.6rem;
   line-height: 1.5;
 }
@@ -133,7 +133,7 @@ body {
   padding: 1rem 2rem;
   border-radius: 8px;
   text-decoration: none;
-  font-size: 1.25rem; /* ridotto da 1.4rem */
+  font-size: 1.25rem; /* leggermente più piccolo */
   font-weight: bold;
   transition: background-color 0.3s ease;
 }
