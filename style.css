@@ -124,6 +124,14 @@ main.container {
   text-align: center;
 }
 
+.content-block h1 {
+  font-size: 3rem; /* modifica la dimensione di h1 */
+}
+
+.content-block h2 {
+  font-size: 2.2rem; /* modifica la dimensione di h2 */
+}
+
 .content-block ul li {
   margin-bottom: 1.3rem;
 }
