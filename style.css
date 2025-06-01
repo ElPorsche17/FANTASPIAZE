@@ -43,6 +43,15 @@ body {
   user-select: none;
 }
 
+.site-subtitle {
+  font-size: 2.5rem;
+  color: #444;
+  font-weight: 400;
+  margin-top: 0.2rem;
+  position: relative;
+  left: 10px; /* Spostamento leggero a destra */
+}
+
 /* Navbar */
 .navbar {
   background-color: #0000cc;
