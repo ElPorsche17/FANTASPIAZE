@@ -1,4 +1,4 @@
-/* Impostazioni generali */
+/* Font Oswald e impostazioni generali */
 body {
   font-family: 'Oswald', sans-serif;
   background-color: #ffffff; /* bianco */
@@ -7,19 +7,19 @@ body {
   padding: 0;
 }
 
-/* Intestazione con titolo e logo */
+/* Header: titolo + logo centrati */
 .header {
   background-color: #ffffff;
   padding: 1.5rem 1rem 0 1rem;
   border-bottom: 2px solid #001eff;
+  display: flex;
+  justify-content: center; /* centro orizzontale */
 }
 
 .logo-title {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 1rem;
-  flex-wrap: wrap;
 }
 
 .logo {
@@ -31,7 +31,6 @@ body {
   font-size: 2.5rem;
   font-weight: bold;
   color: #001eff;
-  text-align: center;
   margin: 0;
 }
 
