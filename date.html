@@ -2,114 +2,49 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Date Chiave - FantaSpiaze</title>
-  <style>
-    body {
-      background-color: #FFFFFF;
-      color: #000;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #0077FF;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-
-    nav ul {
-      list-style: none;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      margin: 0.5rem 0 0 0;
-    }
-
-    nav li {
-      margin: 0 1rem;
-    }
-
-    nav a {
-      color: #FFD966;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    main {
-      padding: 2rem;
-      text-align: center;
-    }
-
-    h2 {
-      color: #0077FF;
-      margin-bottom: 1.5rem;
-    }
-
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    li {
-      background-color: #FFD966;
-      color: #000;
-      margin: 0.5rem auto;
-      padding: 1rem;
-      border-radius: 8px;
-      max-width: 600px;
-      text-align: left;
-      font-weight: bold;
-    }
-
-    footer {
-      background-color: #0077FF;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fantaspiaze - Date Chiave</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <header>
-    <h1>FantaSpiaze 2025/26</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Homepage</a></li>
-        <li><a href="regolamento.html">Regolamento</a></li>
-        <li><a href="classifiche.html">Classifiche</a></li>
-        <li><a href="date.html">Date Chiave</a></li>
-        <li><a href="negozio.html">Negozio</a></li>
-      </ul>
-    </nav>
+  <header class="header">
+    <div class="logo-title">
+      <img 
+        src="pallone.png" 
+        alt="Logo Fantaspiaze" 
+        class="logo" 
+        onerror="this.style.display='none'"
+      />
+      <h1 class="site-title">FANTASPIAZE</h1>
+    </div>
   </header>
 
-  <main>
-    <section>
+  <nav class="navbar">
+    <a href="index.html">Homepage</a>
+    <a href="regolamento.html">Regolamento</a>
+    <a href="classifica.html">Classifica</a>
+    <a href="date.html" class="active">Date Chiave</a>
+    <a href="iscrizione.html" class="highlight">Iscrizione</a>
+  </nav>
+
+  <main class="container">
+    <section class="date-chiave">
       <h2>Date Chiave</h2>
       <ul>
-        <li>17 Giugno 2025: Termine conferme passata stagione</li>
-        <li>18 Giugno 2025: Presentazione regolamento completo</li>
-        <li>17-21 Agosto 2025: Asta principale</li>
-        <li>23 Agosto 2025: Inizio Serie A e FantaSpiaze</li>
-        <li>1 Settembre 2025 ore 20:00: Chiusura Sessione Estiva Calciomercato</li>
-        <li>1-9 Settembre 2025: Sosta nazionali e apertura mercato scambi</li>
-        <li>2-12 Settembre 2025: Asta riparazione post calciomercato estivo e apertura mercato scambi</li>
-        <li>6-14 Ottobre 2025: Sosta nazionali e apertura mercato scambi</li>
-        <li>10-18 Novembre 2025: Sosta nazionali e apertura mercato scambi</li>
-        <li>2 Febbraio 2026 ore 20:00: Chiusura Sessione Invernale Calciomercato</li>
-        <li>3-12 Febbraio 2026: Asta riparazione post calciomercato invernale e apertura mercato scambi</li>
+        <li><strong>17 Giugno 2025:</strong> Termine conferme passata stagione</li>
+        <li><strong>18 Giugno 2025:</strong> Presentazione regolamento completo</li>
+        <li><strong>17-21 Agosto 2025:</strong> Asta principale</li>
+        <li><strong>23 Agosto 2025:</strong> Inizio Serie A e FantaSpiaze</li>
+        <li><strong>1 Settembre 2025 ore 20:00:</strong> Chiusura Sessione Estiva Calciomercato</li>
+        <li><strong>1-9 Settembre 2025:</strong> Sosta nazionali e apertura mercato scambi</li>
+        <li><strong>2-12 Settembre 2025:</strong> Asta riparazione post calciomercato estivo e apertura mercato scambi</li>
+        <li><strong>6-14 Ottobre 2025:</strong> Sosta nazionali e apertura mercato scambi</li>
+        <li><strong>10-18 Novembre 2025:</strong> Sosta nazionali e apertura mercato scambi</li>
+        <li><strong>2 Febbraio 2026 ore 20:00:</strong> Chiusura Sessione Invernale Calciomercato</li>
+        <li><strong>3-12 Febbraio 2026:</strong> Asta riparazione post calciomercato invernale e apertura mercato scambi</li>
       </ul>
     </section>
   </main>
-
-  <footer>
-    <p>&copy; 2025 FantaSpiaze</p>
-  </footer>
-
 </body>
 </html>
